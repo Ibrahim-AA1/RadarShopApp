@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/brand_subtle_bg"
+    android:padding="24dp">
+
+    <!-- App logo -->
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/radarshop_logo"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        android:background="@drawable/circle_mask"
+        android:clipToOutline="true"
+        android:layout_marginBottom="16dp"
+        android:alpha="0"/>
+
+
+    <!-- App name -->
+    <TextView
+        android:id="@+id/tvAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RADARSHOP"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:textColor="@color/brand_primary"
+        android:alpha="0"/>
+
+    <!-- Progress indicator -->
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:id="@+id/progress"
+        style="@style/Widget.Material3.CircularProgressIndicator.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:indeterminate="true"
+        app:indicatorSize="36dp"
+        android:alpha="0"/>
+</LinearLayout>

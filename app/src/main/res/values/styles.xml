@@ -1,0 +1,16 @@
+<resources>
+    <!-- Rounded shape overlay for the indicator -->
+    <style name="ShapeAppearance.Radar.Rounded16" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <!-- Active indicator style WITHOUT private attrs -->
+    <style name="BottomNavActiveIndicator" parent="">
+        <item name="android:color">#E6E8FF</item>
+        <item name="android:width">64dp</item>
+        <item name="android:height">32dp</item>
+        <!-- use ShapeAppearance overlay to get rounded corners -->
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.Radar.Rounded16</item>
+    </style>
+</resources>

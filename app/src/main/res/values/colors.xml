@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="text_muted">#6B7280</color>
+    <color name="bgPage">#FFF7F7FA</color>
+    <color name="topStrip">#0E0E18</color>
+
+    <color name="txtPrimary">#1C1C1E</color>
+    <color name="txtMuted">#7A7A8C</color>
+
+    <color name="promoRed">#F04D4D</color>
+    <color name="promoBlue">#4D74FF</color>
+    <color name="promoGreen">#43C06B</color>
+    <color name="brand_primary">#2A9D8F</color>
+    <color name="brand_subtle_bg">#F8F9FB</color>
+    <color name="brand_dark">#1B263B</color>
+
+</resources>
