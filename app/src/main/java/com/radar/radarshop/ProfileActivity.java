@@ -36,7 +36,7 @@ public class ProfileActivity extends AppCompatActivity {
         try {
             setContentView(R.layout.activity_profile);
         } catch (Throwable t) {
-            Toast.makeText(this, "Profile layout error", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, t.getMessage(), Toast.LENGTH_LONG).show();
             finish();
             return;
         }

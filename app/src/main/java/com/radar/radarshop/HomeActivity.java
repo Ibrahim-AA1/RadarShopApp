@@ -139,7 +139,7 @@ public class HomeActivity extends AppCompatActivity {
         try {
             startActivity(new Intent(this, ProfileActivity.class));
         } catch (Throwable t) {
-            Toast.makeText(this, "Cannot open profile", Toast.LENGTH_SHORT).show();
+           Toast.makeText(this, "Cannot open profile", Toast.LENGTH_SHORT).show();
         }
     }
 
